@@ -2,6 +2,7 @@
   const container = document.getElementById("container");
   container.style.alignItems = 'center';
   container.style.width = '100%';
+  container.style.padding = '0';
   const aboutBtn = document.querySelector(".About");
   const homeBtn = document.querySelector(".Home");
   const menuBtn = document.querySelector(".Menu");
