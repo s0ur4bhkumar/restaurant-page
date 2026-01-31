@@ -74,7 +74,8 @@ h1 {
     flex-direction: column;
 }
 
-p {
+p,
+pre {
     background-color: rgba(0, 0, 0, calc(var(--opacity) - 0.1));
     backdrop-filter: blur(var(--blurVal));
     border-radius: var(--radius);
@@ -96,6 +97,15 @@ p {
 }
 
 .schedule {
+    background-color: rgba(0, 0, 0, calc(var(--opacity) - 0.1));
+    backdrop-filter: blur(var(--blurVal));
+    border-radius: var(--radius);
+}
+
+/****************************************************menu styling***********************************/
+
+.card {
+    height: 300px;
     background-color: rgba(0, 0, 0, calc(var(--opacity) - 0.1));
     backdrop-filter: blur(var(--blurVal));
     border-radius: var(--radius);
