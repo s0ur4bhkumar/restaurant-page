@@ -22,6 +22,6 @@ export default(function () {
     return;
   });
   homeBtn.style.backgroundColor = "rgb(254 206 121)";
-  // Home();
+  Home();
 })();
 
